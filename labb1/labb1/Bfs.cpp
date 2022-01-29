@@ -1,4 +1,4 @@
-#include "Bfs.h"
+/*#include "Bfs.h"
 #include <iostream>
 #include <vector>
 
@@ -12,7 +12,6 @@ void bfs(const adjacency_list_t& list)
 
 	// mark our first node
 	push_and_visit(q, list.first.begin()->first, visited);
-	//push_and_visit(q, list.first.begin()->first, visited);
 
 	while (q.size()) {
 		// Get current node
@@ -67,5 +66,4 @@ void push_and_visit(queue& q, node_id_t node, std::vector<bool>& visited) {
 	q.push(node);
 	visited[node] = true;
 }
-
- 
+*/

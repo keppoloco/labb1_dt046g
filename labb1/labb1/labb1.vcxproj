@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bfs.cpp" />
+    <ClCompile Include="Dfs.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Reader.cpp" />
   </ItemGroup>
@@ -148,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bfs.h" />
+    <ClInclude Include="Dfs.h" />
     <ClInclude Include="Reader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

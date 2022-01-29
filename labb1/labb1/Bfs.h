@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #ifndef BFS_H
 #define BFS_H
 
@@ -31,4 +31,4 @@ bool isVisited(node_id_t node, const std::vector<bool>& visited);
 bool isAllVisited(const std::vector<bool>& visited);
 
 
-#endif
+#endif*/
