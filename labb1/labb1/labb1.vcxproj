@@ -139,7 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bfs.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Reader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="export.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bfs.h" />
+    <ClInclude Include="Reader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
