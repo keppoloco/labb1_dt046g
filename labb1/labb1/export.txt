@@ -18,7 +18,7 @@ M 12 Sidsjövägen Kvarngatan
 M 13 Bergsgatan Sidsjövägen 1
 M 14 Bergsgatan Sidsjövägen 2
 M 15 Bergsgatan Kvarngatan
-M 16 Sidsjövägen Lekängsvägen
+M 16 Sidsjövägen Lekängsvägen  
 M 17 Bergsgatan Hårdvallsgatan
 M 18 Bultgatan 4
 M 19 Bite Line West
