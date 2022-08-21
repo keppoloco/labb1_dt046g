@@ -39,10 +39,12 @@ Dijkstras::Dijkstras(const adjacency_list_t& graph) {
 	node_id_t start_node = 0, destination_node = 0;
 	initNodes(start_node, destination_node);
 
+	// initialize choosen starter node
 	edge source = getSource(graph, start_node);
 
-
 	pq.push(source);
+
+	// make sure our first node doesn't have any weight
 	distance[source.n2] = 0;
 
 	while (!pq.empty()) {
@@ -51,10 +53,13 @@ Dijkstras::Dijkstras(const adjacency_list_t& graph) {
 		// Remove the current edge in queue
 		pq.pop();
 
+		// find adjacent nodes to the current edge between n1 - n2
 		auto edge_vector = adjacentNodes(graph, current);
 
 		for (auto edge : edge_vector) {
+			// add onto our cumulative weight
 			edge.weight += current.weight;
+			// for each edge, if we have found a shorter path we assign it to our path 
 			if ( edge.weight < distance[edge.n2]) {
 				distance[edge.n2] = edge.weight;
 

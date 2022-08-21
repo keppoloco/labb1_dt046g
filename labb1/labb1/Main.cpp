@@ -23,10 +23,10 @@ int main() {
 	// 20 10 8 9 5 4 3 19
 	// Vikt 81.7
 
-	// datatyp: std::pair< map<int, std::string>, std::vector<edge> >
 	adjacency_list_t list = parse_file(filename);
     //bfs(list);
 	//dfs(list);
+	// 23 32
 	Dijkstras dijk(list);
 
 	return 0;

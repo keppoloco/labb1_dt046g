@@ -1,4 +1,4 @@
-/*#include "Bfs.h"
+#include "Bfs.h"
 #include <iostream>
 #include <vector>
 
@@ -66,4 +66,3 @@ void push_and_visit(queue& q, node_id_t node, std::vector<bool>& visited) {
 	q.push(node);
 	visited[node] = true;
 }
-*/
